@@ -26,6 +26,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .middle h2 {
@@ -48,6 +49,22 @@
 
 .middle-container {
   height: 45vh;
+}
+
+.middle h2:hover::after {
+  content: "Aperte a tecla m ou e para mostrar e esconder o alvo";
+  position: absolute;
+  left: 25%;
+  top: 0;
+  min-width: 200px;
+  border: 1px #aaaaaa solid;
+  border-radius: 10px;
+  background-color: #ffffcc;
+  padding: 6px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  z-index: 1;
 }
 
 .bottom {
@@ -98,4 +115,31 @@
   .top img {
     max-height: 20vh;
   }
+}
+
+/* Percentage CSS */
+#progressInput {
+  margin: 20px auto;
+  width: 30%;
+}
+
+.circle-background,
+.circle-progress {
+  fill: none;
+}
+
+.circle-background {
+  stroke: #9b9b9b;
+}
+
+.circle-progress {
+  stroke: red;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.circle-text {
+  font-size: 3em;
+  font-weight: bold;
+  fill: red;
 }
