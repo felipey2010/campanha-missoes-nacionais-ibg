@@ -1,13 +1,67 @@
+:root {
+  --font-small: 0.875em;
+  --font-normal: 1em;
+  --font-medium: 1.2em;
+  --font-large: 1.4em;
+  --color-default: #1e5bc6;
+  --color-green: #36ba9b;
+  --color-yellow: #f5b946;
+  --color-red: #d94352;
+  --color-orange: #ff7421;
+  --color-white: #fff;
+  --color-pink: #e1097a;
+  --color-blue: #1b9dd9;
+  --color-modal-background: #10101091;
+  --weight-light: 300;
+  --weight-normal: 400;
+  --weight-bold: 700;
+  --weight-black: 900;
+  --hover-color-green: #61ddbc;
+  --hover-color-blue: #0682bb;
+  --hover-color-pink: #e81785;
+  --hover-color-yellow: #fcd277;
+  --hover-color-red: #f76c82;
+  --hover-color-blue: #1b9dd9;
+  --hover-color-grey: #f1f1f1;
+  --hover-duration: 0.3s;
+  --gradient-green: linear-gradient(
+    to right,
+    #42e695 0%,
+    #3bb2b8 50%,
+    #42e695 100%
+  );
+  --gradient-blue: linear-gradient(
+    to right,
+    #1b9dd9 0%,
+    #1b9dd9 50%,
+    #1b9dd9 100%
+  );
+  --gradient-red: linear-gradient(
+    to right,
+    #622744 0%,
+    #c53364 50%,
+    #622744 100%
+  );
+  --gradient-yellow: linear-gradient(
+    to right,
+    #fce38a 0%,
+    #f38181 50%,
+    #fce38a 100%
+  );
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  overflow: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
