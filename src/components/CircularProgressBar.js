@@ -11,6 +11,11 @@ export default function CircularProgressBar({
   const [count, setCount] = useState(0);
   const firstVal = finalVal - Math.floor(finalVal * 0.4);
   const secondVal = finalVal - Math.floor(finalVal * 0.1);
+  const finalText = 61.63;
+
+  if (count === finalVal) {
+    setCount(finalText);
+  }
 
   // Size of the enclosing square
   const sqSize = sq_Size;
