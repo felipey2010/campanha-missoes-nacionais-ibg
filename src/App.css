@@ -34,7 +34,7 @@
   margin-bottom: 0;
   padding-bottom: 0;
   text-align: justify;
-  font-size: 2.5em;
+  font-size: 3em;
   font-family: "Lobster", cursive;
 }
 
@@ -49,6 +49,7 @@
 
 .middle-container {
   height: 45vh;
+  margin-bottom: 8px;
 }
 
 .middle h2:hover::after {
@@ -97,9 +98,27 @@
   background-color: #930d0cdb;
 }
 
-@media (max-width: 715px) {
+@media (max-width: 880px) {
   .middle h2 {
-    font-size: 1.5em;
+    font-size: 2em;
+  }
+
+  .middle p {
+    font-size: 1.8em;
+  }
+
+  .btn-show-meter {
+    display: block;
+  }
+
+  .middle h2:hover::after {
+    display: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .middle h2 {
+    font-size: 1.8em;
   }
 
   .middle p {
@@ -114,6 +133,14 @@
 @media (max-width: 445px) {
   .top img {
     max-height: 20vh;
+  }
+
+  .middle h2 {
+    font-size: 1.8em;
+  }
+
+  .middle p {
+    font-size: 1.2em;
   }
 }
 

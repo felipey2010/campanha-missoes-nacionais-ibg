@@ -51,7 +51,7 @@ export default function CircularProgressBar({
   }, [count]);
 
   return (
-    <svg width={`${sqSize}px`} height={`${sqSize}px`} viewBox={viewBox}>
+    <svg width={`${45}vw`} height={`${45}vh`} viewBox={viewBox}>
       <circle
         className="circle-background"
         cx={sqSize / 2}
