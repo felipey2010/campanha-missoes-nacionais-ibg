@@ -166,7 +166,23 @@
 }
 
 .circle-text {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: bold;
   fill: red;
+}
+
+.circle-background-full {
+  stroke: red;
+}
+
+.circle-progress-full {
+  stroke: yellow;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.circle-text-full {
+  font-size: 2.5em;
+  font-weight: bold;
+  fill: rgb(255, 238, 1);
 }
