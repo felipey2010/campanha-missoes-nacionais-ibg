@@ -11,7 +11,7 @@ export default function CircularProgressBar({
   const [count, setCount] = useState(0);
   const firstVal = finalVal - Math.floor(finalVal * 0.4);
   const secondVal = finalVal - Math.floor(finalVal * 0.1);
-  const finalText = "112,37";
+  const finalText = "115,65";
 
   if (count === finalVal) {
     setCount(finalText);
